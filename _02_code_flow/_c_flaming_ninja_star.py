@@ -21,30 +21,30 @@ if __name__ == '__main__':
     flameSize = 130         # the length of the flaming arms
     
     # Make a new turtle
-    
+    shockyp_da_goat=turtle.Turtle()
     # Make the turtle shape 'turtle', .shape('turtle')
-    
+    shockyp_da_goat.shape('turtle')
     # Set the turtle width to 2
-    
+    shockyp_da_goat.width(2)
     # Set the turtle speed to 0 (fastest)
-    
+    shockyp_da_goat.speed(0)
     # Use a for loop to repeat all of the code below ONE time (we will change
     # this later)
-        
+    for i in range(1):
         # Set the turtle .fillcolor() to orange
-        
+        shockyp_da_goat.fillcolor('orange')
         # Call the turtle .begin_fill() function
-        
+        shockyp_da_goat.begin_fill()
         # TURN RIGHT     Turn the turtle 1/8 of a circle (hint: 360 degrees
         #                will turn a full circle)
-        
+        shockyp_da_goat.right(45)
         # DRAW           Move the turtle 64 pixels
-        
+        shockyp_da_goat.forward(64)
         # TURN LEFT      Turn the turtle 40 degrees to the LEFT. (Negative
         #                numbers will turn the turtle counter-clockwise.)
-        
+        shockyp_da_goat.left(40)
         # DRAW FLAME     Move the turtle the distance in the variable flameSize
-        
+        shockyp_da_goat.forward(flameSize)
         #                Turn the turtle to the right 170 degrees
          
         #                Move the turtle the distance in the variable flameSize (again)
